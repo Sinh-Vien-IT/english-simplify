@@ -4,6 +4,9 @@
   "description": "AI-powered English article simplification backend for Vercel & Chrome Extension",
   "main": "api/index.ts",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",

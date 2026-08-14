@@ -45,7 +45,7 @@ npm install
 ### 3. Configure Environment Variables
 Create or edit `.env` in the root folder:
 ```properties
-GEMINI_API_KEY=AQ.Ab8RN6JN6p7EoQad4kr5bFSu1JLujUdHFFflRBEc6binc4v84Q
+GEMINI_API_KEY=your_gemini_api_key
 GEMINI_MODEL=gemini-3.5-flash
 PORT=8080
 ```

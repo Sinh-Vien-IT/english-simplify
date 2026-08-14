@@ -2,12 +2,12 @@
   "name": "english-simplify-backend",
   "version": "1.0.0",
   "description": "AI-powered English article simplification backend for Vercel & Chrome Extension",
-  "main": "dist/index.js",
+  "main": "api/index.ts",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/src/index.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
@@ -19,6 +19,7 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.4",
+    "@vercel/node": "^5.10.0",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3"
   }

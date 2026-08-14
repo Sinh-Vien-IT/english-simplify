@@ -1,0 +1,4 @@
+chrome-extension/
+.vscode/
+README.md
+.env

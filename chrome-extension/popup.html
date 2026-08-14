@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English Simplify</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>✨ AI Simplify</h2>
+            <p>Select a learning level for translations</p>
+        </div>
+        
+        <div class="form-group">
+            <label for="level-select">Target CEFR Level</label>
+            <select id="level-select">
+                <option value="A2">A2 (Pre-Intermediate)</option>
+                <option value="B1" selected>B1 (Intermediate)</option>
+                <option value="B2">B2 (Upper-Intermediate)</option>
+            </select>
+        </div>
+
+        <div class="status-box">
+            <button id="test-btn" class="btn secondary-btn">Test Backend Connection</button>
+            <div id="status-msg" class="status-msg"></div>
+        </div>
+        
+        <div class="footer">
+            <p>Select text on any webpage -> Right Click -> Simplify Text</p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
